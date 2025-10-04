@@ -44,4 +44,4 @@ Animation libraries for sign language
 Vision
 SetuLink is more than an app—it’s a bridge (Setu) to inclusive communication.
 We aim to make everyday interactions more accessible, respectful, and empowering for everyone.
-yo
+y
