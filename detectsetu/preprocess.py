@@ -1,7 +1,7 @@
 import os
 import cv2
 
-# ======== CONFIG ========
+# ======== CONFIG =======
 # Paste your full absolute path to the folder containing raw images
 input_dir = r"C:\Users\khush\detectsetu\islalphaeng"
 
