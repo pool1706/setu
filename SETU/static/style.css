@@ -1,0 +1,42 @@
+body {
+    background: #000;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main {
+    margin: 1em auto;
+    max-width: 600px;
+}
+
+a, button {
+    color: #fff;
+    background: #222;
+    border: none;
+    padding: 0.7em 1.1em;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:hover, button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.language-toggle {
+    float: right;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+.section {
+    margin-bottom: 2em;
+}

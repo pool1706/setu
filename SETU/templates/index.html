@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ 'kn' if lang=='kn' else 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <title>SETU - Accessibility Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="language-toggle">
+            <a href="/?lang=en">English</a> |
+            <a href="/?lang=kn">Kannada</a>
+        </div>
+        <h1>
+            {% if lang == 'kn' %}
+                [translate:ಸೆತು - ಪ್ರವೇಶ ಸಹಾಯ]
+            {% else %}
+                SETU - Accessibility Assistant
+            {% endif %}
+        </h1>
+    </header>
+    <main>
+        <div class="section">
+            <h2>
+                {% if lang == 'kn' %}
+                    [translate:ಬ್ರೈಲ್ ಭಾಷೆ ಕಲಿಯಿರಿ]
+                {% else %}
+                    Learn Braille
+                {% endif %}
+            </h2>
+            <a href="/braille?lang={{ lang }}">
+                {% if lang == 'kn' %}[translate:ಪ್ರಾರಂಭಿಸಿ]{% else %}Get Started{% endif %}
+            </a>
+        </div>
+        <div class="section">
+            <h2>
+                {% if lang == 'kn' %}
+                    [translate:ಸೈನ್ ಭಾಷೆ ಕಲಿಯಿರಿ]
+                {% else %}
+                    Learn Sign Language
+                {% endif %}
+            </h2>
+            <a href="/sign?lang={{ lang }}">
+                {% if lang == 'kn' %}[translate:ಪ್ರಾರಂಭಿಸಿ]{% else %}Get Started{% endif %}
+            </a>
+        </div>
+    </main>
+</body>
+</html>
