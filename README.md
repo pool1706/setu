@@ -1,4 +1,4 @@
-# setu
+# SETU
 Key Features
 Personalized Onboarding
 Detects phone language (English / Kannada)
