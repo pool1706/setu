@@ -1,5 +1,5 @@
-# setu
-Key Features
+# SETU
+Key Features:-
 Personalized Onboarding
 Detects phone language (English / Kannada)
 Dynamic welcome screen cycling "Hello" in multiple languages
