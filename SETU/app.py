@@ -16,6 +16,3 @@ def braille():
 def sign():
     lang = request.args.get('lang', 'en')
     return render_template('sign.html', lang=lang)
-
-if __name__ == '__main__':
-    app.run(debug=True)
